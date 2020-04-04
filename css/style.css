@@ -1,5 +1,13 @@
+body {
+  font-family: "Amiko", sans-serif;
+}
+
 #wrapper {
   background-color: hsl(0, 0%, 86%);
+}
+
+header {
+  font-family: "Cabin", sans-serif;
 }
 
 #content {
@@ -8,4 +16,8 @@
 
 #content .section {
   padding-bottom: 0px;
+}
+
+.media .media-left img {
+  width: 400px;
 }

@@ -1,0 +1,11 @@
+#wrapper {
+  background-color: hsl(0, 0%, 86%);
+}
+
+#content {
+  background-color: white;
+}
+
+#content .section {
+  padding-bottom: 0px;
+}

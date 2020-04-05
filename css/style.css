@@ -3,11 +3,18 @@ body {
 }
 
 #wrapper {
-  background-color: hsl(0, 0%, 86%);
+  background-image: url(../assets/images/header-background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
-header {
+.hero {
+  background-color: rgb(98, 117, 131);
+}
+
+.hero h1 {
   font-family: "Cabin", sans-serif;
+  color: white;
 }
 
 #content {

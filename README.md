@@ -2,9 +2,9 @@
 
 ## Description
 
-Welcome to my updated portfolio page. This page contains a short bio, my contact details, links to my professional and social media accounts and details about recent project. It's completely responsive, and uses Bulma (https://bulma.io/) and jQuery.
+Welcome to my updated portfolio page. This page contains a short bio, my contact details, links to my professional and social media accounts, and details about my recent projects. It's completely responsive, and uses Bulma (https://bulma.io/) and jQuery.
 
-![Description](https://github.com/mjsouthcott/06-weather-dashboard/blob/master/assets/images/readme.png)
+![Description](https://github.com/mjsouthcott/08-updated-portfolio-page/blob/master/assets/images/readme.PNG)
 
 ## Installation
 

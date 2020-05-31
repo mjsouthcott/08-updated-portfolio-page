@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Matthew Southcott's Portfolio</title>
+    <title>Broad Peak Web Development</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
@@ -93,9 +93,20 @@
             <div class="column is-one-quarter">
               <div class="box">
                 <article>
-                  <figure class="image is-4byb4" id="profile-photo">
+                  <figure class="image is-square" id="profile-photo" data-target="#profile-modal">
                       <img src="public/img/bio.jpg" alt="Coast Mountain bliss" />
                   </figure>
+                  <!-- Start of Modal -->
+                  <div class="modal" id="profile-modal">
+                    <div class="modal-background"></div>
+                    <div class="modal-content">
+                      <p class="image">
+                        <img src="public/img/bio.jpg" alt="Coast Mountain bliss" />
+                      </p>
+                    </div>
+                    <button class="modal-close is-large" aria-label="close"></button>
+                  </div>
+                  <!-- End of Modal -->
                   <div class="content">
                     <p class="title is-4">Matthew Southcott</p>
                     <p>
@@ -134,12 +145,26 @@
               <div class="box">
                 <article class="columns">
                   <div class="column is-two-thirds">
-                    <figure class="image">
+                    <figure class="image" id="article-1-photo" data-target="#article-1-modal">
                       <img
                         src="public/img/template-engine-employee-summary.PNG"
                         alt="Template Engine - Employee Summary"
                       />
                     </figure>
+                    <!-- Start of Modal -->
+                    <div class="modal" id="article-1-modal">
+                      <div class="modal-background"></div>
+                      <div class="modal-content">
+                        <p class="image">
+                          <img
+                          src="public/img/template-engine-employee-summary.PNG"
+                          alt="Template Engine - Employee Summary"
+                        />
+                        </p>
+                      </div>
+                      <button class="modal-close is-large" aria-label="close"></button>
+                    </div>
+                    <!-- End of Modal -->
                   </div>
                   <div class="column">
                     <div class="content">
@@ -174,12 +199,26 @@
               <div class="box">
                 <article class="columns">
                   <div class="column is-two-thirds">
-                    <figure class="image">
+                    <figure class="image" id="article-2-photo" data-target="#article-2-modal">
                       <img
                         src="public/img/weather-dashboard.png"
                         alt="Weather Dashboard"
                       />
                     </figure>
+                    <!-- Start of Modal -->
+                    <div class="modal" id="article-2-modal">
+                      <div class="modal-background"></div>
+                      <div class="modal-content">
+                        <p class="image">
+                          <img
+                          src="public/img/weather-dashboard.png"
+                          alt="Weather Dashboard"
+                        />
+                        </p>
+                      </div>
+                      <button class="modal-close is-large" aria-label="close"></button>
+                    </div>
+                    <!-- End of Modal -->
                   </div>
                   <div class="column">
                     <div class="content">
@@ -218,12 +257,26 @@
               <div class="box">
                 <article class="columns">
                   <div class="column is-two-thirds">
-                    <figure class="image">
+                    <figure class="image" id="article-3-photo" data-target="#article-3-modal">
                       <img
                         src="public/img/day-planner.png"
                         alt="Day Planner"
                       />
                     </figure>
+                    <!-- Start of Modal -->
+                    <div class="modal" id="article-3-modal">
+                      <div class="modal-background"></div>
+                      <div class="modal-content">
+                        <p class="image">
+                          <img
+                          src="public/img/day-planner.png"
+                          alt="Day Planner"
+                        />
+                        </p>
+                      </div>
+                      <button class="modal-close is-large" aria-label="close"></button>
+                    </div>
+                    <!-- End of Modal -->
                   </div>
                   <div class="column">
                     <div class="content">
@@ -273,6 +326,7 @@
       <!-- End of Footer -->
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="public/js/script.js"></script>
+    <script src="public/js/main.js"></script>
+    <script src="public/js/home.js"></script>
   </body>
 </html>

@@ -5,7 +5,7 @@ body {
 #wrapper {
   background-image: url(../img/background.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: auto 2048px;
 }
 
 .hero,
@@ -77,4 +77,8 @@ a#logout-button {
 ::-webkit-scrollbar {
   width: 0px;
   background: transparent;
+}
+
+.modal-content {
+  width: 960px;
 }

@@ -4,7 +4,7 @@
 
 Welcome to my updated portfolio page. This page contains a short bio, my contact details, links to my professional and social media accounts, and details about my recent projects. It's completely responsive, and uses Bulma (https://bulma.io/) and jQuery.
 
-![Description](https://github.com/mjsouthcott/08-updated-portfolio-page/blob/master/assets/images/readme.PNG)
+![Description](https://github.com/mjsouthcott/08-updated-portfolio-page/blob/master/public/img/readme.PNG)
 
 ## Installation
 
@@ -12,7 +12,7 @@ Click on the following URL to launch the deployed application in your browser: h
 
 ## Credits
 
-Matthew Southcott, Full Stack Developer, Company X
+Matthew Southcott, Full Stack Developer, Broad Peak Web Development
 
 ## License
 
